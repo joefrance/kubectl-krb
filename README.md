@@ -1,6 +1,9 @@
 # kubectl-krb
 client-go credential plugin for kerberos
 
+
+### Build
+
 You may build the plugin for your OS:
 
 - `cd scripts`
@@ -14,3 +17,9 @@ Then rename the plugin copy the plugin to an executable path:
 
 - `/usr/local/bin/kubectl-krb` Linux/Mac
 - `C:\windows\system32\kubectl-krb.exe` Windows - don't forget to add the `.exe` extension
+
+### Debug
+
+To debug the plugin with VS Code:
+
+- set env variables in `.vscode/launch.json` in `configurations->env`
